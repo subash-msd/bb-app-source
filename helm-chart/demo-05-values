@@ -1,0 +1,15 @@
+replicaCount: 2
+
+service:
+  type: NodePort
+  nodePort: 30005
+  targetPort: 80
+
+namespace:
+  name: 5-demo
+  git
+labels:
+  app:
+    name: block-baster
+    version: 7.6.0
+    env: dev
