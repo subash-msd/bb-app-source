@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: subash2025/block-buster-dev:7.8.0 # { "$imagepolicy": "flux-system: 08-demo-image-repo-policy-bb-app" ]
+          image: subash2025/block-buster-dev:7.8.0  # {"$imagepolicy": "flux-system:08-demo-image-repo-policy-bb-app"}
           imagePullPolicy: Always
           resources:
             requests:
